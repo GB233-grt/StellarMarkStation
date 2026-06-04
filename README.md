@@ -90,10 +90,40 @@ chmod +x start.sh
 bash start.sh
 ```
 
+### GitHub Pages部署
+
+#### 自动部署（推荐）
+
+项目已配置GitHub Actions自动部署工作流，每次推送到`main`或`master`分支时自动构建并部署到GitHub Pages。
+
+**配置步骤：**
+
+1. 在GitHub仓库中，进入 **Settings > Pages**
+2. 在 **Source** 部分，选择 **GitHub Actions**
+3. 确保工作流文件 `.github/workflows/deploy.yml` 已存在
+
+**触发条件：**
+- 每次推送到 `main` 或 `master` 分支时自动触发部署
+- 也可以在Actions页面手动触发部署
+
+#### 手动部署
+
+```bash
+# 安装依赖
+npm install
+
+# 构建项目
+npm run build
+
+# 部署到GitHub Pages
+npm run deploy
+```
+
 ## 访问地址
 
 - 开发环境: http://localhost:5173
 - 生产环境: http://localhost (Docker)
+- GitHub Pages: https://GB233-grt.github.io/StellarMarkStation/
 
 ## License
 
