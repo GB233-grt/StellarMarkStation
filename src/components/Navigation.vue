@@ -8,16 +8,16 @@ const emit = defineEmits<{
 }>()
 
 const navItems = [
-  { id: 'home', label: '首页', icon: '🏠' },
-  { id: 'games', label: '互动游戏', icon: '🎮' },
-  { id: 'scenes', label: '经典场景', icon: '🎬' },
-  { id: 'redshore', label: '红岸基地', icon: '📡' },
-  { id: 'wallfacers', label: '面壁者', icon: '🧠' },
-  { id: 'swordsman', label: '执剑人', icon: '⚔️' },
-  { id: 'fairy', label: '云天明童话', icon: '📖' },
-  { id: 'encyclopedia', label: '三体百科', icon: '📚' },
-  { id: 'community', label: 'UGC社区', icon: '👥' },
-  { id: 'messages', label: '星际留言', icon: '💬' }
+  { id: 'home', label: '首页' },
+  { id: 'games', label: '互动游戏' },
+  { id: 'scenes', label: '经典场景' },
+  { id: 'redshore', label: '红岸基地' },
+  { id: 'wallfacers', label: '面壁者' },
+  { id: 'swordsman', label: '执剑人' },
+  { id: 'fairy', label: '云天明童话' },
+  { id: 'encyclopedia', label: '三体百科' },
+  { id: 'community', label: 'UGC社区' },
+  { id: 'messages', label: '星际留言' }
 ]
 </script>
 
@@ -39,14 +39,13 @@ const navItems = [
             :key="item.id"
             @click="emit('navigate', item.id)"
             :class="[
-              'flex items-center gap-2 px-4 py-2 rounded-lg transition-all',
+              'px-4 py-2 rounded-lg transition-all text-sm',
               activeTab === item.id 
                 ? 'bg-neon-blue/20 text-neon-blue' 
                 : 'text-gray-400 hover:text-white hover:bg-gray-800'
             ]"
           >
-            <span>{{ item.icon }}</span>
-            <span>{{ item.label }}</span>
+            {{ item.label }}
           </button>
         </div>
       </div>
