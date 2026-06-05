@@ -96,7 +96,7 @@ function filterPosts(category: string) {
   <div class="space-y-8">
     <div class="relative rounded-xl overflow-hidden h-[300px]">
       <img
-        src="https://neeko-copilot.bytedance.net/api/text2image?prompt=online%20community%20forum%20with%20stars%20and%20messages%20floating%20sci-fi%20social%20media%20concept&image_size=landscape_16_9"
+        src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1920&h=600&fit=crop"
         alt="UGC社区"
         class="w-full h-full object-cover"
       />

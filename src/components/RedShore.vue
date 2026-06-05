@@ -72,7 +72,7 @@ const personnelContent = {
   <div class="space-y-8">
     <div class="relative rounded-xl overflow-hidden h-[300px]">
       <img
-        src="https://neeko-copilot.bytedance.net/api/text2image?prompt=secret%20radio%20telescope%20station%20in%20deep%20forest%20at%20night%20with%20giant%20satellite%20dish%20looking%20at%20stars%20sci-fi%20mysterious%20atmosphere&image_size=landscape_16_9"
+        src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1920&h=600&fit=crop"
         alt="红岸基地"
         class="w-full h-full object-cover"
       />

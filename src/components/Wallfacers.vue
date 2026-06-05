@@ -67,7 +67,7 @@ const activeWallfacer = ref(wallfacers[3])
   <div class="space-y-8">
     <div class="relative rounded-xl overflow-hidden h-[300px]">
       <img
-        src="https://neeko-copilot.bytedance.net/api/text2image?prompt=four%20wise%20men%20in%20dark%20room%20planning%20strategy%20around%20globe%20dramatic%20lighting%20sci-fi%20conference%20room&image_size=landscape_16_9"
+        src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1920&h=600&fit=crop"
         alt="面壁者"
         class="w-full h-full object-cover"
       />

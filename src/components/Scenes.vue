@@ -17,7 +17,7 @@ const scenes: Scene[] = [
     id: 'guzheng',
     title: '古筝行动',
     subtitle: '三体I · 巴拿马运河',
-    image: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=epic%20space%20battle%20scene%20with%20giant%20ship%20being%20cut%20by%20nano%20wire%20in%20deep%20space%20dark%20sci-fi%20style&image_size=landscape_16_9',
+    image: 'https://images.unsplash.com/photo-1446776877081-d282a0f896e2?w=1200&h=600&fit=crop',
     description: '古筝行动是人类首次成功对抗三体组织（ETO）的重大行动。在巴拿马运河的狭窄航道上，由汪淼参与研发的"飞刃"纳米材料被布置成一道无形的切割网。当ETO的旗舰"审判日号"驶入这片水域时，整艘万吨巨轮被瞬间切割成数十片薄如蝉翼的金属切片，船上所有人员无一幸免。',
     background: '【原著背景】在《三体I》中，古筝行动标志着人类与三体组织之间的力量对比发生逆转。此前，ETO凭借来自三体世界的技术支持，在全球范围内制造混乱，几乎无人能与之抗衡。但通过纳米技术的突破，人类终于找到了对抗的方法。这次行动不仅摧毁了ETO的指挥中枢，更重要的是获取了三体文明发送的全部信息，为后续的面壁计划奠定了基础。',
     parameters: [
@@ -34,7 +34,7 @@ const scenes: Scene[] = [
     id: 'waterdrop',
     title: '水滴战役',
     subtitle: '三体II · 末日之战',
-    image: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=silver%20droplet%20shaped%20alien%20probe%20destroying%20human%20spaceships%20in%20space%20battle%20sci-fi%20dark%20atmosphere&image_size=landscape_16_9',
+    image: 'https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=1200&h=600&fit=crop',
     description: '末日战役是人类与三体文明的首次正面交锋。三体文明派出的首个探测器——一颗看似普通的水滴状物体，以其绝对光滑的表面和超越人类理解的加速度，在短短十几分钟内摧毁了人类两千艘星际战舰组成的庞大舰队。此战彻底粉碎了人类的傲慢与幻想。',
     background: '【原著背景】在《三体II：黑暗森林》中，水滴探测器的到来标志着三体危机进入新阶段。人类曾以为凭借技术爆炸和数量优势可以与三体抗衡，但水滴的出现证明了双方在科技水平上的鸿沟。水滴由强相互作用力材料制成，其表面绝对光滑，任何常规武器都无法对其造成伤害。这场战役后，人类文明陷入前所未有的绝望。',
     parameters: [
@@ -51,7 +51,7 @@ const scenes: Scene[] = [
     id: '2dfoil',
     title: '太阳系二维化',
     subtitle: '三体III · 降维打击',
-    image: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=solar%20system%20being%20flattened%20into%202D%20by%20dark%20matter%20weapon%20epic%20sci-fi%20catastrophe%20scene&image_size=landscape_16_9',
+    image: 'https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=1200&h=600&fit=crop',
     description: '二向箔是歌者文明使用的一种降维武器。当它被激活时，会将整个太阳系从三维空间不可逆地降维至二维平面。在这场宇宙级的灾难中，所有物质都被压扁成没有厚度的平面图像，太阳系从此成为宇宙中的一幅"画"。',
     background: '【原著背景】在《三体III：死神永生》中，二向箔的到来宣告了太阳系文明的终结。歌者文明的"清理员"在发现太阳系坐标后，随手抛出了这片看似普通的"纸"。整个降维过程持续了数天，从海王星开始，逐步向内吞噬整个太阳系。最终，只有程心和艾AA驾驶的星环号借助曲率引擎逃离了这场灾难。',
     parameters: [

@@ -97,7 +97,7 @@ const activeCategory = ref(categories[0])
   <div class="space-y-8">
     <div class="relative rounded-xl overflow-hidden h-[300px]">
       <img
-        src="https://neeko-copilot.bytedance.net/api/text2image?prompt=cosmic%20library%20with%20floating%20books%20and%20stars%20mystical%20knowledge%20sci-fi%20atmosphere&image_size=landscape_16_9"
+        src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1920&h=600&fit=crop"
         alt="三体百科"
         class="w-full h-full object-cover"
       />

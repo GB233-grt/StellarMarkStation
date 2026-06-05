@@ -63,7 +63,7 @@ const activeSwordsman = ref(swordsmen[0])
   <div class="space-y-8">
     <div class="relative rounded-xl overflow-hidden h-[300px]">
       <img
-        src="https://neeko-copilot.bytedance.net/api/text2image?prompt=person%20holding%20red%20button%20in%20dark%20control%20room%20with%20stars%20view%20dramatic%20tension%20sci-fi&image_size=landscape_16_9"
+        src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1920&h=600&fit=crop"
         alt="执剑人"
         class="w-full h-full object-cover"
       />

@@ -12,21 +12,21 @@ const slides: Slide[] = [
  title: '古筝行动',
  subtitle: '三体I · 人类的反击',
  description: '巴拿马运河，纳米丝线组成的"古筝"静静等待。审判日号驶入的瞬间，整艘巨轮被切割成数十片薄如蝉翼的切片。这是ETO的覆灭，也是人类首次在技术层面展现对抗三体的决心。',
- image: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=epic%20space%20battle%20scene%20with%20giant%20ship%20being%20cut%20by%20nano%20wire%20in%20deep%20space%20dark%20sci-fi%20style&image_size=landscape_16_9'
+ image: 'https://images.unsplash.com/photo-1446776877081-d282a0f896e2?w=1920&h=800&fit=crop'
  },
  {
  id: 2,
  title: '水滴战役',
  subtitle: '三体II · 黑暗森林',
  description: '末日战役，三体探测器"水滴"以绝对光滑的表面和不可思议的加速度，在短短十几分钟内摧毁了人类两千艘战舰组成的星际舰队。此战宣告了人类在技术上的绝对劣势。',
- image: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=silver%20droplet%20shaped%20alien%20probe%20destroying%20human%20spaceships%20in%20space%20battle%20sci-fi%20dark%20atmosphere&image_size=landscape_16_9'
+ image: 'https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=1920&h=800&fit=crop'
  },
  {
  id: 3,
  title: '太阳系二维化',
  subtitle: '三体III · 死神永生',
  description: '歌者文明的"清理员"随手抛出二向箔，将整个太阳系不可逆地降维至二维。在这场宇宙级的灾难面前，人类文明最终走向终结，只留下程心与艾AA驾驶的星环号在宇宙中漂流。',
- image: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=solar%20system%20being%20flattened%20into%202D%20by%20dark%20matter%20weapon%20epic%20sci-fi%20catastrophe%20scene&image_size=landscape_16_9'
+ image: 'https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=1920&h=800&fit=crop'
  }
 ];
 const currentSlide = ref(0);
