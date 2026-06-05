@@ -16,7 +16,7 @@ const swordsmen: Swordsman[] = [
     id: 'luoji',
     name: '罗辑',
     term: '公元2215年 - 2408年（193年）',
-    image: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=wise%20elderly%20chinese%20man%20with%20intense%20eyes%20holding%20red%20button%20dramatic%20portrait%20sci-fi&image_size=portrait_4_3',
+    image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=500&fit=crop',
     description: '罗辑是人类历史上第一位执剑人。在面壁计划成功后，他建立了黑暗森林威慑体系，成为手握全人类命运的终极决策者。在他担任执剑人的近两个世纪里，三体文明始终不敢轻举妄动。',
     actions: [
       '建立黑暗森林威慑体系',
@@ -30,7 +30,7 @@ const swordsmen: Swordsman[] = [
     id: 'chengxin',
     name: '程心',
     term: '公元2408年 - 2408年（15分钟）',
-    image: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=young%20chinese%20woman%20with%20gentle%20expression%20holding%20red%20button%20conflicted%20emotions%20sci-fi%20portrait&image_size=portrait_4_3',
+    image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=500&fit=crop',
     description: '程心是第二位执剑人。在罗辑卸任后，她以高票当选为新的执剑人。然而，在三体文明发动攻击的关键时刻，她未能按下威慑按钮，导致人类文明的威慑体系崩溃。',
     actions: [
       '当选为第二任执剑人',
@@ -44,7 +44,7 @@ const swordsmen: Swordsman[] = [
     id: 'zhangbeihai',
     name: '章北海',
     term: '无正式任期（逃亡主义者）',
-    image: 'https://neeko-copilot.bytedance.net/api/text2image?prompt=chinese%20military%20officer%20with%20determined%20expression%20space%20uniform%20leadership%20portrait&image_size=portrait_4_3',
+    image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=500&fit=crop',
     description: '章北海虽然没有正式担任执剑人，但他是人类逃亡主义的先驱。他预见到了人类在技术上的劣势，策划了"自然选择号"的逃亡，为人类文明保留了火种。',
     actions: [
       '策划"自然选择号"逃亡',
