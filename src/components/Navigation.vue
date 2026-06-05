@@ -10,6 +10,13 @@ const emit = defineEmits<{
 const navItems = [
   { id: 'home', label: '首页', icon: '🏠' },
   { id: 'games', label: '互动游戏', icon: '🎮' },
+  { id: 'scenes', label: '经典场景', icon: '🎬' },
+  { id: 'redshore', label: '红岸基地', icon: '📡' },
+  { id: 'wallfacers', label: '面壁者', icon: '🧠' },
+  { id: 'swordsman', label: '执剑人', icon: '⚔️' },
+  { id: 'fairy', label: '云天明童话', icon: '📖' },
+  { id: 'encyclopedia', label: '三体百科', icon: '📚' },
+  { id: 'community', label: 'UGC社区', icon: '👥' },
   { id: 'messages', label: '星际留言', icon: '💬' }
 ]
 </script>

@@ -11,6 +11,13 @@ import DeterrenceGame from '@/components/DeterrenceGame.vue'
 import SurvivalGame from '@/components/SurvivalGame.vue'
 import IdentityGame from '@/components/IdentityGame.vue'
 import MessageWall from '@/components/MessageWall.vue'
+import Scenes from '@/components/Scenes.vue'
+import RedShore from '@/components/RedShore.vue'
+import Wallfacers from '@/components/Wallfacers.vue'
+import Swordsman from '@/components/Swordsman.vue'
+import FairyTale from '@/components/FairyTale.vue'
+import Encyclopedia from '@/components/Encyclopedia.vue'
+import Community from '@/components/Community.vue'
 
 const activeTab = ref('home')
 const activeGame = ref<string | null>(null)
@@ -27,6 +34,13 @@ const games = [
 const showHome = computed(() => activeTab.value === 'home' && !activeGame.value)
 const showGames = computed(() => activeTab.value === 'games' && !activeGame.value)
 const showMessages = computed(() => activeTab.value === 'messages')
+const showScenes = computed(() => activeTab.value === 'scenes')
+const showRedShore = computed(() => activeTab.value === 'redshore')
+const showWallfacers = computed(() => activeTab.value === 'wallfacers')
+const showSwordsman = computed(() => activeTab.value === 'swordsman')
+const showFairyTale = computed(() => activeTab.value === 'fairy')
+const showEncyclopedia = computed(() => activeTab.value === 'encyclopedia')
+const showCommunity = computed(() => activeTab.value === 'community')
 
 function navigate(tab: string) {
   activeTab.value = tab
@@ -104,6 +118,34 @@ function closeGame() {
       
       <div v-else-if="showMessages">
         <MessageWall />
+      </div>
+      
+      <div v-else-if="showScenes">
+        <Scenes />
+      </div>
+      
+      <div v-else-if="showRedShore">
+        <RedShore />
+      </div>
+      
+      <div v-else-if="showWallfacers">
+        <Wallfacers />
+      </div>
+      
+      <div v-else-if="showSwordsman">
+        <Swordsman />
+      </div>
+      
+      <div v-else-if="showFairyTale">
+        <FairyTale />
+      </div>
+      
+      <div v-else-if="showEncyclopedia">
+        <Encyclopedia />
+      </div>
+      
+      <div v-else-if="showCommunity">
+        <Community />
       </div>
       
       <div v-else-if="activeGame === 'darkforest'">
